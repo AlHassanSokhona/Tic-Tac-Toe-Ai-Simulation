@@ -20,8 +20,9 @@ This approach ensures optimal play without requiring recursion or minimax algori
 The game uses a clean ASCII-based board layout where empty spaces are labeled from 1–9:
 Players select a move by entering the corresponding number, making the game intuitive and easy to play in a terminal environment.
  1 | 2 | 3
----+---+---
- 4 | 5 | 6      <<<----- Type number you want to play,
----+---+---
- 7 | 8 | 9
+
+
+                                                                                           4 | 5 | 6     
+
+                                                                                           7 | 8 | 9
  Ai always plays first
